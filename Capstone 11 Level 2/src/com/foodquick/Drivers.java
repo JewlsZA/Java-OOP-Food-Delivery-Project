@@ -13,7 +13,7 @@ public class Drivers {
     private static ArrayList<Driver> loadDrivers() {
         ArrayList<Driver> tempDrivers = new ArrayList<>();
         try {
-            File driversFile = new File("drivers.txt");
+            File driversFile = new File("driver-info.txt");
             Scanner sc = new Scanner(driversFile);
 
             while (sc.hasNext()) {
@@ -57,7 +57,7 @@ public class Drivers {
     }
     // updates the drivers file with the new driver loads
     public static void writeDriverFile() throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("drivers.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("driver-info.txt"));
 
         drivers.forEach((driver) -> {
             try {
