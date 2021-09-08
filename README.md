@@ -1,4 +1,4 @@
-# My Java OOP Food Delivery Project
+# My Java OOP Food Delivery System
 In this project I explore my new skills with Object Orientated Programming in Java. 
 ## What does this program do ?
 This program requests the user to input details of a customer and restaurant object.
