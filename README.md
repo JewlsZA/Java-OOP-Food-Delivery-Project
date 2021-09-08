@@ -11,5 +11,3 @@ Two more informational text files are also generated.
 Start by opening the project in a java compatable IDE.
 Run the main class quickfood.java.
 Follow the menu selections.
-# Creator
-Julian Mackay
